@@ -1,0 +1,22 @@
+.DS_Store
+simulation-results/
+
+# Keep the local ns-3 tree out of this repo except experiment files.
+ns-3.46.1/*
+!ns-3.46.1/examples/
+ns-3.46.1/examples/*
+!ns-3.46.1/examples/routing/
+ns-3.46.1/examples/routing/*
+!ns-3.46.1/examples/routing/CMakeLists.txt
+!ns-3.46.1/examples/routing/manet-routing-compare-adaptive-cache.cc
+
+# ns-3 generated files
+ns-3.*/build/
+ns-3.*/cmake-cache/
+ns-3.*/testpy-output/
+ns-3.*/__pycache__/
+ns-3.*/.lock-*
+ns-3.*/manet-routing.output.csv
+ns-3.*/manet-routing-compare.mob
+ns-3.*/*.pcap
+ns-3.*/*.tr
