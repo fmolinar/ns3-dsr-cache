@@ -72,13 +72,8 @@
 #include "ns3/yans-wifi-helper.h"
 
 #include <algorithm>
-#include <chrono>
-#include <ctime>
-#include <filesystem>
 #include <fstream>
-#include <iomanip>
 #include <iostream>
-#include <sstream>
 
 using namespace ns3;
 using namespace dsr;
@@ -123,22 +118,12 @@ class RoutingExperiment
      * Compute the throughput.
      */
     void CheckThroughput();
-    /**
-     * Prepare project-local output paths for metrics and traces.
-     */
-    void ResolveOutputPaths();
 
     uint32_t port{9};            //!< Receiving port number.
     uint32_t bytesTotal{0};      //!< Total received bytes.
     uint32_t packetsReceived{0}; //!< Total received packets.
 
-    std::string m_CSVfileName; //!< CSV filename. If empty, one is generated under m_outputDirectory.
-    std::string m_outputDirectory{
-        "/Users/fmolinar/Documents/school/csci256-wireless-spring26/ns3-dsr/simulation-results/"
-        "adaptive-cache"}; //!< Base output directory.
-    std::string m_runLabel{"linkcache-tuned"}; //!< Label used for generated run directories.
-    std::string m_runDirectory;                //!< Directory used by this run.
-    std::string m_mobilityTraceName;           //!< Mobility trace path for this run.
+    std::string m_CSVfileName{"manet-routing-adaptive-cache.output.csv"}; //!< CSV filename.
     int m_nSinks{10};                                                     //!< Number of sink nodes.
     std::string m_protocolName{"DSR"};                                    //!< Protocol name.
     double m_txp{7.5};                                                    //!< Tx power.
@@ -164,19 +149,6 @@ class RoutingExperiment
 
 RoutingExperiment::RoutingExperiment()
 {
-}
-
-static std::string
-MakeTimestamp()
-{
-    const auto now = std::chrono::system_clock::now();
-    const std::time_t nowTime = std::chrono::system_clock::to_time_t(now);
-    std::tm localTime;
-    localtime_r(&nowTime, &localTime);
-
-    std::ostringstream oss;
-    oss << std::put_time(&localTime, "%Y%m%d-%H%M%S");
-    return oss.str();
 }
 
 static inline std::string
@@ -240,50 +212,10 @@ RoutingExperiment::SetupPacketReceive(Ipv4Address addr, Ptr<Node> node)
 }
 
 void
-RoutingExperiment::ResolveOutputPaths()
-{
-    namespace fs = std::filesystem;
-
-    if (m_CSVfileName.empty())
-    {
-        m_runDirectory = (fs::path(m_outputDirectory) / (m_runLabel + "-" + MakeTimestamp())).string();
-        fs::create_directories(m_runDirectory);
-        m_CSVfileName = (fs::path(m_runDirectory) / "metrics.csv").string();
-    }
-    else
-    {
-        fs::path csvPath(m_CSVfileName);
-        if (csvPath.has_parent_path())
-        {
-            fs::create_directories(csvPath.parent_path());
-            m_runDirectory = csvPath.parent_path().string();
-        }
-        else
-        {
-            m_runDirectory = fs::current_path().string();
-        }
-    }
-
-    m_mobilityTraceName = (fs::path(m_runDirectory) / "mobility.mob").string();
-
-    NS_LOG_UNCOND("Metrics CSV: " << m_CSVfileName);
-    if (m_traceMobility)
-    {
-        NS_LOG_UNCOND("Mobility trace: " << m_mobilityTraceName);
-    }
-}
-
-void
 RoutingExperiment::CommandSetup(int argc, char** argv)
 {
     CommandLine cmd(__FILE__);
-    cmd.AddValue("CSVfileName",
-                 "Exact CSV output path. If empty, a timestamped project-local path is generated.",
-                 m_CSVfileName);
-    cmd.AddValue("outputDir",
-                 "Base directory for generated simulation outputs",
-                 m_outputDirectory);
-    cmd.AddValue("runLabel", "Label used for generated run directories", m_runLabel);
+    cmd.AddValue("CSVfileName", "The name of the CSV output file name", m_CSVfileName);
     cmd.AddValue("traceMobility", "Enable mobility tracing", m_traceMobility);
     cmd.AddValue("protocol", "Routing protocol (OLSR, AODV, DSDV, DSR)", m_protocolName);
     cmd.AddValue("flowMonitor", "enable FlowMonitor", m_flowMonitor);
@@ -347,7 +279,6 @@ void
 RoutingExperiment::Run()
 {
     Packet::EnablePrinting();
-    ResolveOutputPaths();
 
     // blank out the last output file and write the column headers
     std::ofstream out(m_CSVfileName);
@@ -551,7 +482,7 @@ RoutingExperiment::Run()
     AsciiTraceHelper ascii;
     if (m_traceMobility)
     {
-        MobilityHelper::EnableAsciiAll(ascii.CreateFileStream(m_mobilityTraceName));
+        MobilityHelper::EnableAsciiAll(ascii.CreateFileStream(tr_name + ".mob"));
     }
 
     FlowMonitorHelper flowmonHelper;
@@ -570,10 +501,7 @@ RoutingExperiment::Run()
 
     if (m_flowMonitor)
     {
-        namespace fs = std::filesystem;
-        flowmon->SerializeToXmlFile((fs::path(m_runDirectory) / (tr_name + ".flowmon")).string(),
-                                    false,
-                                    false);
+        flowmon->SerializeToXmlFile(tr_name + ".flowmon", false, false);
     }
 
     Simulator::Destroy();

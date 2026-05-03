@@ -1,5 +1,4 @@
 .DS_Store
-simulation-results/
 
 # Keep the local ns-3 tree out of this repo except experiment files.
 ns-3.46.1/*

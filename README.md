@@ -60,29 +60,11 @@ Build and run:
 ```sh
 cd ns-3.46.1
 ./ns3 build manet-routing-compare-adaptive-cache
-./ns3 run --no-build "manet-routing-compare-adaptive-cache --traceMobility=false"
-```
-
-By default, each adaptive run writes metrics under:
-
-```text
-/Users/fmolinar/Documents/school/csci256-wireless-spring26/ns3-dsr/simulation-results/adaptive-cache/<run-label>-<timestamp>/metrics.csv
-```
-
-The default run label is `linkcache-tuned`. You can change the output grouping without changing the code:
-
-```sh
-./ns3 run --no-build "manet-routing-compare-adaptive-cache --traceMobility=false --runLabel=timeout-sweep-01"
-```
-
-You can also force an exact CSV path:
-
-```sh
-./ns3 run --no-build "manet-routing-compare-adaptive-cache --traceMobility=false --CSVfileName=/Users/fmolinar/Documents/school/csci256-wireless-spring26/ns3-dsr/simulation-results/manual-run/metrics.csv"
+./ns3 run --no-build --cwd /tmp "manet-routing-compare-adaptive-cache --traceMobility=false --CSVfileName=/tmp/ns3-dsr-adaptive-cache.csv"
 ```
 
 The default cache type is `LinkCache`, matching ns-3 DSR. For a stricter route-timeout experiment using `PathCache`:
 
 ```sh
-./ns3 run --no-build "manet-routing-compare-adaptive-cache --cacheType=PathCache --traceMobility=false --runLabel=pathcache-timeout"
+./ns3 run --no-build --cwd /tmp "manet-routing-compare-adaptive-cache --cacheType=PathCache --traceMobility=false --CSVfileName=/tmp/ns3-dsr-adaptive-cache-path.csv"
 ```
