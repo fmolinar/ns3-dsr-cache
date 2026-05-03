@@ -1,0 +1,5 @@
+label,percentage,base_RouteCacheTimeout,base_InitStability,base_UseExtends,effective_RouteCacheTimeout,effective_InitStability,effective_UseExtends,rows,total_packets,total_kbits,avg_all_kbps,active_rows,avg_active_kbps,first_nonzero_second,last_nonzero_second,peak_receive_rate_kbps,peak_receive_rate_second,peak_packets_per_second,peak_packets_second
+010pct,10,30.0,2.5,12.0,30.0,2.0,10.0,200,1165,596.48,2.9824,99,6.025050505050506,101,199,37.888,193,74,193
+050pct,50,150.0,12.5,60.0,37.5,3.125,15.0,200,1261,645.632,3.22816,99,6.521535353535353,101,199,32.256,190,63,190
+110pct,110,330.0,27.5,132.0,82.5,6.875,33.0,200,1207,617.984,3.08992,99,6.242262626262627,101,199,14.848,109,29,109
+150pct,150,450.0,37.5,180.0,112.5,9.375,45.0,200,1097,561.664,2.80832,99,5.673373737373737,101,199,33.28,156,65,156
