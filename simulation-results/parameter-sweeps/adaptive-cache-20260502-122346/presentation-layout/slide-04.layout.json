@@ -1,0 +1,713 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/h3numf",
+    "id": "h3numf",
+    "slide": 4,
+    "layoutId": "f0130864-e9ed-42d6-854e-7f280c6f8dfc",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "884edd31-ff05-4fcb-8afb-8f19869d3173",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos",
+      "Aptos Mono"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f0130864-e9ed-42d6-854e-7f280c6f8dfc",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "884edd31-ff05-4fcb-8afb-8f19869d3173",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "884edd31-ff05-4fcb-8afb-8f19869d3173",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7FAFD",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        86
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "3",
+      "bbox": [
+        54,
+        86,
+        1172,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9E2EC",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "4",
+      "bbox": [
+        54,
+        34,
+        5,
+        28
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F80ED",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "5",
+      "bbox": [
+        74,
+        31,
+        260,
+        18
+      ],
+      "geometry": "rect",
+      "text": "IMPLEMENTATION",
+      "textPreview": "IMPLEMENTATION",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "IMPLEMENTATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "IMPLEMENTATION",
+          "runs": [
+            {
+              "index": 1,
+              "text": "IMPLEMENTATION",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#647085",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wval87ed",
+      "id": "6",
+      "bbox": [
+        74,
+        50,
+        970,
+        30
+      ],
+      "geometry": "rect",
+      "text": "The adaptive values are computed before DSR is installed on the nodes.",
+      "textPreview": "The adaptive values are computed before DSR is installed on the nodes.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The adaptive values are computed before DSR is installed on the nodes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The adaptive values are computed before DSR is installed on the nodes.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The adaptive values are computed before DSR is installed on the nodes.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#142033",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "7",
+      "bbox": [
+        980,
+        626,
+        240,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Adaptive DSR route cache | 04",
+      "textPreview": "Adaptive DSR route cache | 04",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Aptos",
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Adaptive DSR route cache | 04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Adaptive DSR route cache | 04",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Adaptive DSR route cache | 04",
+              "fontSize": 9,
+              "typeface": "Aptos",
+              "color": "#647085"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eloj2t83",
+      "id": "8",
+      "bbox": [
+        70,
+        132,
+        520,
+        460
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E2EC",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/36hcrmhk",
+      "id": "9",
+      "bbox": [
+        104,
+        160,
+        360,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Command-line switches",
+      "textPreview": "Command-line switches",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Command-line switches"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Command-line switches",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Command-line switches",
+              "fontSize": 22,
+              "typeface": "Aptos",
+              "color": "#1F4E79",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "10",
+      "bbox": [
+        104,
+        212,
+        400,
+        240
+      ],
+      "geometry": "rect",
+      "text": "adaptiveRouteCache\nadaptiveLinkStability\ncacheType\nbaseRouteCacheTimeout\nbaseInitStability\nbaseUseExtends\ncacheReferenceSpeed",
+      "textPreview": "adaptiveRouteCache | adaptiveLinkStability | cacheType | baseRouteCacheTimeout | baseInitStability | baseUseExtends | cacheReferenceSpeed",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Aptos Mono",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "adaptiveRouteCache"
+          },
+          {
+            "index": 2,
+            "text": "adaptiveLinkStability"
+          },
+          {
+            "index": 3,
+            "text": "cacheType"
+          },
+          {
+            "index": 4,
+            "text": "baseRouteCacheTimeout"
+          },
+          {
+            "index": 5,
+            "text": "baseInitStability"
+          },
+          {
+            "index": 6,
+            "text": "baseUseExtends"
+          },
+          {
+            "index": 7,
+            "text": "cacheReferenceSpeed"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "adaptiveRouteCache",
+          "runs": [
+            {
+              "index": 1,
+              "text": "adaptiveRouteCache",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "adaptiveLinkStability",
+          "runs": [
+            {
+              "index": 1,
+              "text": "adaptiveLinkStability",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "cacheType",
+          "runs": [
+            {
+              "index": 1,
+              "text": "cacheType",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "baseRouteCacheTimeout",
+          "runs": [
+            {
+              "index": 1,
+              "text": "baseRouteCacheTimeout",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "baseInitStability",
+          "runs": [
+            {
+              "index": 1,
+              "text": "baseInitStability",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "baseUseExtends",
+          "runs": [
+            {
+              "index": 1,
+              "text": "baseUseExtends",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "text": "cacheReferenceSpeed",
+          "runs": [
+            {
+              "index": 1,
+              "text": "cacheReferenceSpeed",
+              "fontSize": 22,
+              "typeface": "Aptos Mono",
+              "color": "#142033"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "11",
+      "bbox": [
+        650,
+        132,
+        500,
+        460
+      ],
+      "geometry": "rect",
+      "fillColor": "#142033",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "12",
+      "bbox": [
+        686,
+        178,
+        430,
+        270
+      ],
+      "geometry": "rect",
+      "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::RouteCacheTimeout\",\n                   TimeValue(Seconds(m_effectiveRouteCacheTimeout)));\nConfig::SetDefault(\"ns3::dsr::DsrRouting::InitStability\",\n                   TimeValue(Seconds(m_effectiveInitStability)));\nConfig::SetDefault(\"ns3::dsr::DsrRouting::UseExtends\",\n                   TimeValue(Seconds(m_effectiveUseExtends)));",
+      "textPreview": "Config::SetDefault(\"ns3::dsr::DsrRouting::RouteCacheTimeout\", |                    TimeValue(Seconds(m_effectiveRouteCacheTimeout))); | C...",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos Mono",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::RouteCacheTimeout\","
+          },
+          {
+            "index": 2,
+            "text": "                   "
+          },
+          {
+            "index": 3,
+            "text": "TimeValue(Seconds(m_effectiveRouteCacheTimeout)));"
+          },
+          {
+            "index": 4,
+            "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::InitStability\","
+          },
+          {
+            "index": 5,
+            "text": "                   TimeValue(Seconds(m_effectiveInitStability)));"
+          },
+          {
+            "index": 6,
+            "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::UseExtends\","
+          },
+          {
+            "index": 7,
+            "text": "                   TimeValue(Seconds(m_effectiveUseExtends)));"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::RouteCacheTimeout\",",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::RouteCacheTimeout\",",
+              "fontSize": 15,
+              "typeface": "Aptos Mono",
+              "color": "#E7EEF7"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "                   TimeValue(Seconds(m_effectiveRouteCacheTimeout)));",
+          "runs": [
+            {
+              "index": 1,
+              "text": "                   TimeValue(Seconds(m_effectiveRouteCacheTimeout)));",
+              "fontSize": 15,
+              "typeface": "Aptos Mono",
+              "color": "#E7EEF7"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::InitStability\",",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::InitStability\",",
+              "fontSize": 15,
+              "typeface": "Aptos Mono",
+              "color": "#E7EEF7"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "                   TimeValue(Seconds(m_effectiveInitStability)));",
+          "runs": [
+            {
+              "index": 1,
+              "text": "                   TimeValue(Seconds(m_effectiveInitStability)));",
+              "fontSize": 15,
+              "typeface": "Aptos Mono",
+              "color": "#E7EEF7"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::UseExtends\",",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Config::SetDefault(\"ns3::dsr::DsrRouting::UseExtends\",",
+              "fontSize": 15,
+              "typeface": "Aptos Mono",
+              "color": "#E7EEF7"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "                   TimeValue(Seconds(m_effectiveUseExtends)));",
+          "runs": [
+            {
+              "index": 1,
+              "text": "                   TimeValue(Seconds(m_effectiveUseExtends)));",
+              "fontSize": 15,
+              "typeface": "Aptos Mono",
+              "color": "#E7EEF7"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "13",
+      "bbox": [
+        686,
+        496,
+        420,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Placement matters: defaults must be set before dsrMain.Install(...) creates the routing objects.",
+      "textPreview": "Placement matters: defaults must be set before dsrMain.Install(...) creates the routing objects.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Placement matters: defaults must be set before"
+          },
+          {
+            "index": 2,
+            "text": "dsrMain.Install(...) creates the routing objects."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Placement matters: defaults must be set before dsrMain.Install(...) creates the routing objects.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Placement matters: defaults must be set before dsrMain.Install(...) creates the routing objects.",
+              "fontSize": 17,
+              "typeface": "Aptos",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

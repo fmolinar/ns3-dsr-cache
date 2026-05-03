@@ -1,0 +1,741 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/a0jmxy",
+    "id": "a0jmxy",
+    "slide": 2,
+    "layoutId": "f0130864-e9ed-42d6-854e-7f280c6f8dfc",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "884edd31-ff05-4fcb-8afb-8f19869d3173",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f0130864-e9ed-42d6-854e-7f280c6f8dfc",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "884edd31-ff05-4fcb-8afb-8f19869d3173",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "884edd31-ff05-4fcb-8afb-8f19869d3173",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bat47y1k",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F7FAFD",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vmtwra5",
+      "id": "2",
+      "bbox": [
+        0,
+        0,
+        1280,
+        86
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tgfmlkjm",
+      "id": "3",
+      "bbox": [
+        54,
+        86,
+        1172,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9E2EC",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cfa9w3",
+      "id": "4",
+      "bbox": [
+        54,
+        34,
+        5,
+        28
+      ],
+      "geometry": "rect",
+      "fillColor": "#2F80ED",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm58z25k",
+      "id": "5",
+      "bbox": [
+        74,
+        31,
+        260,
+        18
+      ],
+      "geometry": "rect",
+      "text": "PROBLEM",
+      "textPreview": "PROBLEM",
+      "resolvedFontSize": 10,
+      "resolvedTextStyle": {
+        "fontSize": 10,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PROBLEM"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PROBLEM",
+          "runs": [
+            {
+              "index": 1,
+              "text": "PROBLEM",
+              "fontSize": 10,
+              "typeface": "Aptos",
+              "color": "#647085",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47y1kre1",
+      "id": "6",
+      "bbox": [
+        74,
+        50,
+        970,
+        30
+      ],
+      "geometry": "rect",
+      "text": "DSR cache reuse is valuable until mobility turns cached routes stale.",
+      "textPreview": "DSR cache reuse is valuable until mobility turns cached routes stale.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DSR cache reuse is valuable until mobility turns cached routes stale."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DSR cache reuse is valuable until mobility turns cached routes stale.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "DSR cache reuse is valuable until mobility turns cached routes stale.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#142033",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsvu9kni",
+      "id": "7",
+      "bbox": [
+        980,
+        626,
+        240,
+        18
+      ],
+      "geometry": "rect",
+      "text": "Adaptive DSR route cache | 02",
+      "textPreview": "Adaptive DSR route cache | 02",
+      "resolvedFontSize": 9,
+      "resolvedTextStyle": {
+        "fontSize": 9,
+        "typeface": "Aptos",
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Adaptive DSR route cache | 02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Adaptive DSR route cache | 02",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Adaptive DSR route cache | 02",
+              "fontSize": 9,
+              "typeface": "Aptos",
+              "color": "#647085"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m58z25kb",
+      "id": "8",
+      "bbox": [
+        70,
+        134,
+        460,
+        430
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9E2EC",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bq1oryts",
+      "id": "9",
+      "bbox": [
+        100,
+        162,
+        360,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Why the cache can hurt",
+      "textPreview": "Why the cache can hurt",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Why the cache can hurt"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Why the cache can hurt",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Why the cache can hurt",
+              "fontSize": 22,
+              "typeface": "Aptos",
+              "color": "#1F4E79",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ex0nuxc",
+      "id": "10",
+      "bbox": [
+        105,
+        232,
+        8,
+        8
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#2F80ED",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "11",
+      "bbox": [
+        127,
+        224,
+        445,
+        42
+      ],
+      "geometry": "rect",
+      "text": "DSR avoids repeated route discovery by keeping learned source routes and link state.",
+      "textPreview": "DSR avoids repeated route discovery by keeping learned source routes and link state.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DSR avoids repeated route discovery by keeping learned source"
+          },
+          {
+            "index": 2,
+            "text": "routes and link state."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DSR avoids repeated route discovery by keeping learned source routes and link state.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "DSR avoids repeated route discovery by keeping learned source routes and link state.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#142033"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lkjm1cfa",
+      "id": "12",
+      "bbox": [
+        105,
+        304,
+        8,
+        8
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#2F80ED",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "13",
+      "bbox": [
+        127,
+        296,
+        445,
+        42
+      ],
+      "geometry": "rect",
+      "text": "In RandomWaypoint mobility, a route that worked earlier can point through a now-broken link.",
+      "textPreview": "In RandomWaypoint mobility, a route that worked earlier can point through a now-broken link.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "In RandomWaypoint mobility, a route that worked earlier can point"
+          },
+          {
+            "index": 2,
+            "text": "through a now-broken link."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "In RandomWaypoint mobility, a route that worked earlier can point through a now-broken link.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "In RandomWaypoint mobility, a route that worked earlier can point through a now-broken link.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#142033"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32lszqtc",
+      "id": "14",
+      "bbox": [
+        105,
+        394,
+        8,
+        8
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#2F80ED",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahoza1gv",
+      "id": "15",
+      "bbox": [
+        127,
+        386,
+        445,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Long cache lifetimes can keep stale state alive long enough to drop packets before repair.",
+      "textPreview": "Long cache lifetimes can keep stale state alive long enough to drop packets before repair.",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Long cache lifetimes can keep stale state alive long enough to"
+          },
+          {
+            "index": 2,
+            "text": "drop packets before repair."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Long cache lifetimes can keep stale state alive long enough to drop packets before repair.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Long cache lifetimes can keep stale state alive long enough to drop packets before repair.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#142033"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l87ed8ba",
+      "id": "16",
+      "bbox": [
+        620,
+        158,
+        500,
+        300
+      ],
+      "geometry": "rect",
+      "fillColor": "#F4F8FC",
+      "lineColor": "#D9E2EC",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sneloj2t",
+      "id": "17",
+      "bbox": [
+        660,
+        196,
+        390,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Adapt cache trust to movement",
+      "textPreview": "Adapt cache trust to movement",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "fontSize": 25,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Adapt cache trust to movement"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Adapt cache trust to movement",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Adapt cache trust to movement",
+              "fontSize": 25,
+              "typeface": "Aptos",
+              "color": "#142033",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q5o7qpg",
+      "id": "18",
+      "bbox": [
+        660,
+        250,
+        380,
+        80
+      ],
+      "geometry": "rect",
+      "text": "The experiment keeps the default MANET scenario and metrics, but computes cache timers from node speed before installing DSR.",
+      "textPreview": "The experiment keeps the default MANET scenario and metrics, but computes cache timers from node speed before installing DSR.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The experiment keeps the default MANET"
+          },
+          {
+            "index": 2,
+            "text": "scenario and metrics, but computes cache"
+          },
+          {
+            "index": 3,
+            "text": "timers from node speed before installing DSR."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The experiment keeps the default MANET scenario and metrics, but computes cache timers from node speed before installing DSR.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "The experiment keeps the default MANET scenario and metrics, but computes cache timers from node speed before installing DSR.",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#647085"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e9cvixcz",
+      "id": "19",
+      "bbox": [
+        660,
+        362,
+        380,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Higher node speed -> shorter route and link stability timers",
+      "textPreview": "Higher node speed -> shorter route and link stability timers",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Higher node speed -> shorter route and"
+          },
+          {
+            "index": 2,
+            "text": "link stability timers"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Higher node speed -> shorter route and link stability timers",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Higher node speed -> shorter route and link stability timers",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#2F80ED",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

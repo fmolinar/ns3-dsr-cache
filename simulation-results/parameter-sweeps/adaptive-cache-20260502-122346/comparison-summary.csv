@@ -1,0 +1,5 @@
+label,percentage,base_RouteCacheTimeout,base_InitStability,base_UseExtends,adaptive_effective_RouteCacheTimeout,adaptive_effective_InitStability,adaptive_effective_UseExtends,adaptive_total_packets,fixed_total_packets,packet_delta,packet_delta_pct,adaptive_total_kbits,fixed_total_kbits,adaptive_avg_all_kbps,fixed_avg_all_kbps,avg_kbps_delta,adaptive_peak_receive_rate_kbps,fixed_peak_receive_rate_kbps,adaptive_peak_receive_rate_second,fixed_peak_receive_rate_second
+010pct,10,30.0,2.5,12.0,30.0,2.0,10.0,1165,1260,-95,-7.5396825396825395,596.48,645.12,2.9824,3.2256,-0.24319999999999986,37.888,55.808,193,149
+050pct,50,150.0,12.5,60.0,37.5,3.125,15.0,1261,1088,173,15.900735294117647,645.632,557.056,3.22816,2.78528,0.4428799999999997,32.256,52.736,190,148
+110pct,110,330.0,27.5,132.0,82.5,6.875,33.0,1207,880,327,37.15909090909091,617.984,450.56,3.08992,2.2528,0.8371200000000001,14.848,30.208,109,149
+150pct,150,450.0,37.5,180.0,112.5,9.375,45.0,1097,833,264,31.692677070828328,561.664,426.496,2.80832,2.1324799999999997,0.6758400000000004,33.28,23.552,156,145
